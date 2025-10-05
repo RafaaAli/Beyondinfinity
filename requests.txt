@@ -1,0 +1,22 @@
+# Core ML & Data Science
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+xgboost==2.0.3
+lightgbm==4.5.0
+joblib==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Light Curve Analysis
+lightkurve==2.6.0
+astropy==6.1.0
+astroquery==0.4.7
+
+# LEO-vetter (must be installed from GitHub)
+git+https://github.com/mkunimoto/LEO-vetter.git
+git+https://github.com/stevepur/transit-diffImage.git
+
+# Optional: Plotting (already included via Streamlit/Lightkurve)
+plotly==5.22.0
