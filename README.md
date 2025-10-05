@@ -52,43 +52,42 @@ https://beyondinfinity-lbws.streamlit.app/
 
 ## 🚀 Our Journey
 
-### Timeline (24 hours)
 
-**Hour 0-3: Research & Planning**
+**Research & Planning**
 - Explored NASA Exoplanet Archive datasets (Kepler, K2, TESS)
 - Studied the transit method and common false positive types
 - Discovered LEO-vetter tool for professional signal validation
 - Identified class imbalance as primary challenge (1:50+ ratios)
 
-**Hour 4-8: Data Processing & EDA**
+**Data Processing & EDA**
 - Downloaded cumulative Kepler catalog (9,564 KOIs)
 - Downloaded K2 EPIC catalog (4,585 candidates)
 - Accessed TESS TOI catalog via astroquery (4,960 objects)
 - Analyzed feature distributions and missing value patterns
 - Implemented robust preprocessing pipeline
 
-**Hour 9-14: Model Development**
+**Model Development**
 - Trained initial models with severe class imbalance
 - Experimented with undersampling, oversampling (SMOTE)
 - Optimized hyperparameters for each mission/model combination
 - Discovered TabPFN effectiveness on TESS data
 - Achieved breakthrough with coarse-grained models
 
-**Hour 15-18: LEO-Vetter Integration**
+**LEO-Vetter Integration**
 - Resolved `rho` (stellar density) calculation bug
 - Integrated lightkurve for TESS light curve fetching
 - Connected astroquery for TIC catalog queries
 - Implemented complete TIC → classification pipeline
 - Generated diagnostic plots (periodograms, phase-folded curves)
 
-**Hour 19-22: Web Application Development**
+**Web Application Development**
 - Built Streamlit interface with 5 main pages
 - Implemented 13-feature prediction system
 - Added batch processing capabilities
 - Created model comparison dashboard
 - Debugged file path issues for deployment
 
-**Hour 23-24: Final Polish & Documentation**
+**Final Polish & Documentation**
 - Wrote comprehensive README
 - Created demo script for judges
 - Tested end-to-end workflows
@@ -191,7 +190,7 @@ exodetect-ai/
 ### Prerequisites
 - Python 3.8+
 - pip package manager
-- 8GB+ RAM (for large models)
+
 
 ### Install Dependencies
 
@@ -354,8 +353,8 @@ Exoplanets are detected when they pass in front of their host star, causing a pe
 
 | Mission | Samples | Models | Best Accuracy | Best F1 | ROC-AUC |
 |---------|---------|--------|---------------|---------|---------|
-| Kepler  | 9,564   | 6      | 93%           | 0.90    | 0.981   |
-| K2      | 4,585   | 2      | 92.8%         | 0.93    | N/A     |
+| Kepler  | 9,564   | 3      | 93%           | 0.90    | 0.981   |
+| K2      | 4,585   | 3      | 92.8%         | 0.93    | N/A     |
 | TESS    | 4,960   | 3      | 76%           | 0.74    | N/A     |
 
 ### Qualitative Achievements
