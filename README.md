@@ -564,4 +564,4 @@ Datasets are provided by NASA and are in the public domain.
 
 ---
 
-**Made with ❤️ for NASA Space Apps Challenge 2024**
+**Made with ❤️ for NASA Space Apps Challenge 2025**
