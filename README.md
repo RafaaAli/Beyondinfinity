@@ -14,6 +14,8 @@ ExoDetect AI is a comprehensive machine learning pipeline for automated exoplane
 ### Challenge
 [Exoplanet Detection](https://www.spaceappschallenge.org/nasa-space-apps-2025/challenges/exoplanet-detection/) - Create an AI/ML model trained on NASA's open-source exoplanet datasets with a web interface for user interaction.
 
+The link for the app 
+https://beyondinfinity-lbws.streamlit.app/
 ---
 
 ## 🎯 Key Features
